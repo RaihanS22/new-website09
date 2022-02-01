@@ -1,5 +1,9 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -150,12 +154,12 @@ body{
 }
 .preview{
     position: absolute;
-    top: 30%;
-    left: 0;
+    top: 40%;
+    left: -7px;
 }
 .next{
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 0;
 }
 .grid-photo{
@@ -290,16 +294,16 @@ body{
     list-style: none;
 }
 .social-link li{
-   margin: 0 30px;
+   margin: 0 15px;
 }
 .social-link li a{
     color: rgb(141, 247, 241);
-    font-size: 30px;
+    font-size: 25px;
     border:  1px solid #fff;
     padding: 4PX;
     border-radius: 4PX;
 }
 .social-link li a:hover{
-    color: #fff;
-    border:  1px solid rgb(141, 247, 241);
+    color: rgb(131, 47, 47);
+    border:  1px solid rgb(131, 47, 47);
 }
