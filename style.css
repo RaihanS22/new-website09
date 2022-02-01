@@ -1,0 +1,305 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.menu-area ul{
+    display: flex;
+    list-style: none;
+}
+.menu-area ul li{
+    margin-left: 25px;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: rgb(36, 33, 33);
+    font-size: 18px;
+    font-weight: 400;
+}
+.menu-area ul li a:hover{
+    color: rgb(126, 122, 122);
+}
+/* main area style */
+.main-area{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.banner-section{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 98%;
+    padding: 10px;
+}
+.big-photo img{
+    width: 95%;
+    height: 610px;
+    object-fit: cover;
+}
+.big-photo {
+    position: relative;
+}
+.haxashop{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    transition-duration: .5s;
+}
+.haxashop h1{
+    color: #fff;
+    font-size: 50px;
+}
+.haxashop i{
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+.haxashop a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+}
+
+/* photo-album style */
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.item {
+    width: 310px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+}
+.image img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+}
+.margin{
+    margin-top: 20px;
+}
+.margin2{
+    margin-left: 5px;
+}
+.margin3{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #fff;
+    z-index: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.content-1{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    color: #fff;
+    background-color: rgb(29, 27, 27);
+    height: 230px;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    z-index: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.content-1 a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 8px;
+}
+.item:hover .content-1{
+    visibility: visible;
+}
+.item:hover .content{
+    visibility: visible;
+    
+}
+.item:hover img{
+    transform: scale(1.5) rotate(20deg);
+}
+/* grid photo style */
+.grid-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.preview{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.next{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.grid-photo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.grid-photo .image1{
+    margin: 20px;
+}
+.image1 h1{
+    display: inline-block;
+   
+}
+.relative{
+    position: relative;
+}
+.image1 .stars-are{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.image1 img{
+    transition: transform 1s ease-in-out;
+}
+.image1 img:hover{
+    transform: scale(.9) rotate(5deg);
+}
+/* all instagram photo style */
+.instagram-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.instagram-section .preview3{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.instagram-section .next3{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.all-instagram{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.all-instagram .image3 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.all-instagram .image3{
+ margin: 20px;
+}
+/* service-section style */
+.service-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.service-section .preview2{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.service-section .next2{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.all-service{
+    display: flex;
+}
+.all-service .image4{
+    margin: 20px;
+}
+/* single-photo style */
+.single-photo{
+    display: flex;
+    justify-content: center;
+}
+.single-photo img{
+    width: 600px;
+    height: 380px;
+    transition: transform 1s ease-in-out;
+}
+.single-section .loading img{
+    display: block;
+    margin: 0 auto;
+}
+.single-photo .image5{
+    margin: 15px;
+}
+.image5 img:hover{
+    transform: scale(.9) rotate(5deg);
+}
+/* footer-area style */
+.footer-section{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(41, 38, 38);
+}
+.menu-culom{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu{
+    display: flex;
+    width: 90%;
+    height: 220px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    border-bottom: .1px solid #fff;
+
+}
+.footer-menu, h3, p{
+    color: #fff;
+}
+.copy-logo p{
+    text-align: center;
+    margin-top: 20px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.social-link li{
+   margin: 0 30px;
+}
+.social-link li a{
+    color: rgb(141, 247, 241);
+    font-size: 30px;
+    border:  1px solid #fff;
+    padding: 4PX;
+    border-radius: 4PX;
+}
+.social-link li a:hover{
+    color: #fff;
+    border:  1px solid rgb(141, 247, 241);
+}
